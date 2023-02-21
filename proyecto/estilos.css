@@ -1,0 +1,332 @@
+/* importamos fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Roboto:wght@100&family=Yellowtail&display=swap');
+*{
+    font-family: "Playfair Display";
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Seccion inicio */
+
+.inicio{
+    background: linear-gradient (black);
+    background-image: url(imagenes_proyectofinal/fondoproyecto.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: blue;
+}
+
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+
+/* menu lateral */
+
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: brown;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: antiquewhite;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size: 3.0rem;
+    font-family: "yellowtail";
+    text-shadow: 0 0 40px white;
+
+}
+
+.inicio .contenido-seccion header .logo .color{
+    color: rgb(194, 35, 35);
+    font-family: "yellowtail";
+}
+
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: brown; 
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 40px rgb(54, 6, 6);
+}
+
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.inicio .contenido-seccion .info .redes{
+    margin: 40px 0;
+}
+
+.inicio .contenido-seccion .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(250, 250, 250);
+    color: rgb(39, 3, 3);
+    border: 1px solid rgb(128, 32, 32);
+    border-radius: 50%;
+    width: 40x;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.info .contenido-seccion .info .redes a:hover{
+    color: blanchedalmond;
+    background-color: rgb(100, 11, 11);
+    box-shadow: 0 0 20px whitesmoke;
+    max-width: 700px;
+}
+
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+
+.inicio .contenido-seccion .foto img{
+    max-width: 700px;
+    border-radius: 50%;
+    border: 5px solid rgb(100, 11, 11);
+    position: center;
+}
+
+.Titulo-seccion{
+    font-family: "yellowtail";
+    font-size: 1.5rem;
+}
+
+.Sobremi{
+    background-color: beige;
+    padding: 0 150px 110px 0;
+    text-align: center;
+}
+
+.Sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.Sobremi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.Sobremi .contenido-seccion .especial{
+    color: brown;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.Sobremi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: red;
+}
+
+.Habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(black black);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: rgb(230, 151, 151);
+    background-image: url(imagenes_proyectofinal/fondo3.jpg);
+}
+
+.Habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10x;
+}
+
+.Habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.Habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Habilidades .contenido-seccion .fila .col{
+    width: 100%;
+    text-align: left;
+}
+
+.Habilidades .contenido-seccion .fila .cont-barra{
+    display: flex;
+    align-items: center
+}
+
+.Habilidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid red;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.Habilidades .contenido-seccion .barra .e{
+    background-color: yellow;
+    width: 30px;
+    height: 40px;
+    margin-right: 3px;
+}
+
+.Resumen{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.Resumen .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.Resumen .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.Resumen .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.Resumen .contenido-seccion .info .col{
+    width: 45%;
+}
+.Resumen .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: #940253;
+    font-weight: bold;
+    border: 2px solid #940253;
+    padding: 10px;
+
+}
+.Resumen .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.Resumen .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.Resumen .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.Resumen .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.Resumen .contenido-seccion .info .col table p{
+    font-size: 14px;
+}
+
+.Resumen .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
+/* SECCION CONTACTO */
+.Contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.Contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.Contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.Contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.Contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.Contacto .contenido-seccion .fila .col h2{
+    color: #940253;
+}
+/* SECCION RESPONSIVE */
+@media screen and (max-width:800px){
+    .Habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .Habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .Habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .Sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .Sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .Resumen .contenido-seccion .info{
+        display: block;
+    }
+    .Resumen .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .Resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .Resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+}
